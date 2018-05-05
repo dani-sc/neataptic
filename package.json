@@ -3,6 +3,7 @@
   "version": "1.4.7",
   "description": "Architecture-free neural network library with genetic algorithm implementations",
   "main": "./src/neataptic",
+  "browser": { "fs": false, "child_process": false },
   "scripts": {
     "test:src": "mocha test/src.js test",
     "test:dist": "mocha test/dist.js test",
@@ -18,10 +19,6 @@
     "mocha": "^3.5.3",
     "semistandard": "*",
     "webpack": "^3.6.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wagenaartje/neataptic.git"
   },
   "keywords": [
     "neural network",
